@@ -1,5 +1,7 @@
 # Projeto de front-end Granfinalle
 
+Para rodar o projeto basta clonar ele e executar no terminal dentro da pasta *npm run dev*
+
 No inicio do código começo importando os estados do React que irei utilizar, na sequência comecei criando as váriaveis que irei trabalhar para manipular as informações que recebo da API
 Na linha 11 inicio recebendo as informações da API e já tratando erro caso as informações não cheguem e também setei uma váriavel para apresentar um carregamento enquanto aguardo as informações e quando recebo transformo em json.
 Na linha 31 começo a trabalhar com a API nativa no caso optei pela geolocalização, e também já faço a tratativa de erro caso ocorra, ou o usuário não permita acessar a localização.
